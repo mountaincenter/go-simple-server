@@ -3,7 +3,7 @@ name: "Build and Deploy"
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   OIDC_ARN: arn:aws:iam::384657981262:role/GitHubActionsOIDC
